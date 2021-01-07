@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+</head>
+<body>
+  {% set blog = get_section(path="blog/_index.md") %}
+  {% for page in blog.pages %}
+    <p>{{ page.title }}</p>
+  {% endfor %}
+  FOO BAR
+</body>
+</html>
