@@ -1,0 +1,1 @@
+This repo contains a minimal viable example for [issue #1292](https://github.com/getzola/zola/issues/1292) in the [getzola/zola](https://github.com/getzola/zola) repo.
